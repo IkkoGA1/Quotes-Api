@@ -13,13 +13,13 @@ namespace QuotesAPi.Models
         [StringLength(50)]
         public string Title { get; set; }
         [Required]
-        [StringLength(50)]
+        [StringLength(60)]
         public string Author { get; set; }
         [Required]
         [StringLength(500)]
         public string Description { get; set; }
         [Required]
-        [StringLength(50)]
+        [StringLength(60)]
         public string Type { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
